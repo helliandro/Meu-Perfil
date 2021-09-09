@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+* {
+  margin: 0;
+  padding : 0;
+  font-family: "Lato";
+  text-align: justify;
+  text-decoration-line: none;
+}
+
+
+body {
+
+  background-image: url("5026563.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.nome {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   max-width: 100%;
+   padding-top: 40px;
+   font-size: 24px;
+}
+
+
+.geral  {
+  position: relative;
+  max-width: 100%;
+  min-height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 0px;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+.conteudos {
+  position: relative;
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: space-around;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+  border-radius: 30px;
+  max-height: 60px;
+  width: 300px;
+  overflow: hidden;  transition: all 1s ease;
+}
+
+.conteudos:hover {
+  width: 300px;
+  max-height: 490px;
+}
+
+
+.conteudos img{
+  opacity: 0;
+  max-width: 0%;
+  transition: all 0.5s ease-in;
+}
+.conteudos:hover img{
+  opacity: 1;
+  max-width: 200px;
+}
+
+.titulo {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  max-height: 10px;
+}
+
+.textos1 {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding-top: 70px;
+  opacity: 0;
+  transition: all 0.5s ease-in;
+}
+
+.textos2 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-top: 90%;
+  padding-left: 1%;
+  padding-right: : 15%;
+  opacity: 0;
+  transition: all 0.5s ease-in;
+  font-size: 0px;
+}
+
+.conteudos:hover .textos1 {
+  opacity: 1;
+}
+
+.conteudos:hover .textos2 {
+  opacity: 1;
+  font-size: 16px;
+}
+
+
+a:link {
+  color: brown ;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: gray;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
