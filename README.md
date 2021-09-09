@@ -1,2 +1,2 @@
 # Meu-Perfil
-Meu site pessial feito e HTML, Javascript e CSS
+Meu site pessoal feito e HTML, Javascript e CSS
